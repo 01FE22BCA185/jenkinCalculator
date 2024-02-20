@@ -54,6 +54,7 @@ class Calculator{
         float operand_1 = 10;
         float operand_2 = 5;
         Calculator calc = new Calculator();
+        extended_calculator c = new extended_calculator();
         float add_result = calc.addition(operand_1, operand_2);
         System.out.println("Result of Addition is: " + add_result);
         float sub_result = calc.substraction(operand_1, operand_2);
@@ -62,5 +63,10 @@ class Calculator{
         System.out.println("Result of Multiplication is: " + mul_result);
         float div_result = calc.division(operand_1, operand_2);
         System.out.println("Result of Division is: " + div_result);
+        float sqr_result = c. square(operand_1);
+        System.out.println("Result of Square is: " + sqr_result);
+        float cub_result = c.cube(operand_1);
+        System.out.println("Result of Cube is: " + cub_result);
+
     }
 }
